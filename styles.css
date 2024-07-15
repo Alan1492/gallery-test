@@ -1,0 +1,30 @@
+.flex-container{
+    border: 4px solid gray;
+    margin:50px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap:2px;
+
+}
+img{
+    border: 2px solid whitesmoke;
+    width:200px;
+    height: 200px;
+}
+.flex-items{
+    border: 2px solid plum;
+}
+figcaption{
+    text-align: center;
+}
+.beet{
+    align-self: stretch;
+    order:1;
+}
+.mush{
+    order:-1;
+}
