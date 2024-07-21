@@ -23,7 +23,7 @@ figcaption{
 }
 .beet{
     align-self: stretch;
-    order:1;
+    order:-3;
 }
 .mush{
     order:-1;
